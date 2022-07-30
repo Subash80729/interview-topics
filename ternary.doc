@@ -1,0 +1,8 @@
+//ternary---condition ? value1:value2
+
+
+let age = 35
+
+let output =  age>50 ? "he is greater" : "he is smaller"
+
+console.log(output)

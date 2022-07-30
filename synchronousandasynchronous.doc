@@ -1,0 +1,18 @@
+//synchronous-- in this method the output will be displayed one after another
+
+function sync(){
+    console.log("how are you")
+    console.log("I'm fine")
+}
+sync()
+
+//asynchronous----in this method the output will display according to their process
+
+function async(){
+    console.log("Subash")
+setTimeout (() => {
+console.log("krishna Arts and science")
+},3000)
+console.log("bsc")
+
+}async()

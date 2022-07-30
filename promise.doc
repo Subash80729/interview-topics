@@ -1,0 +1,19 @@
+//Promise---it is a method with resolve and reject method
+
+
+const data =  new Promise((resolve,reject)  => {
+    var a=50
+    if(a >=60){
+    resolve("it is greater")
+    }else{
+        reject("it is lower")
+    }
+    })
+    
+    .then ((data) =>{
+        console.log(data)
+    })
+    
+    .catch ((err)  => {
+        console.log(err)
+    })

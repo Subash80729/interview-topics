@@ -1,0 +1,28 @@
+var list=["tree","fruit","vegetable"]
+var newlist=list .concat(["leaf","flesh"])
+
+console.log(newlist)
+
+list.push("fish")
+console.log(list)
+list.pop()
+console.log(list)
+list.unshift("mutton")
+console.log(list)
+list.shift("mutton")
+console.log(list)
+list.reverse()
+console.log(list)
+
+console.log(list.length)
+
+console.log(list.map((d) => d=== "tree"))
+console.log(list.find((d) => d=== "tree"))
+console.log(list.filter((d) => d=== "tree"))
+console.log(typeof(list.map((d) => d=== "tree")))
+console.log(list.indexOf((d) => d=== "tree"))
+
+var num =[66,355,308,40858,34]
+
+console.log(num.sort((a,b) => (b-a)))
+console.log(num.sort((a,b) => (a-b)))

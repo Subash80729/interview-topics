@@ -1,0 +1,19 @@
+async function program(){
+    var b=40
+    var result;
+    if(b==48){
+         result ="it is equal"
+    }
+    else
+    result="it is not equal"
+
+var res=await result
+return res
+}
+program() .then((res) =>{
+    console.log(res)
+})
+.catch((err)  =>{
+    console.log(err)
+}
+)

@@ -1,0 +1,14 @@
+//callback---sending functinon as an argument or paramater
+
+
+function happy(){
+    greet()
+    console.log("how are you")
+    return "already asked"
+    greet()
+
+}
+function greet(){
+    console.log("I'm fine")
+}
+console.log(happy())
